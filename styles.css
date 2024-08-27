@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0 auto;  
+    background: hsl(228, 33%, 94%);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+}
+
+.light-heading {
+    font-weight: 200;
+}
+
+.heading {
+    margin-top: -20px;
+    font-weight: 600;
+}
+
+.main-content {
+    padding: 1.25rem;
+}
+
+.box-one {
+    padding: 4.375rem;
+    background: hsl(0, 0%, 98%);
+    margin-top: 80px;
+    border-radius: 10px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.box-two {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.box-three {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.box-four {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.box-two, .box-three, .box-four {
+    padding: 4.375rem;
+    background: hsl(0, 0%, 98%);
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.text-one, .text-two, .text-three, .text-four {
+    margin-left: -40px;
+    margin-top: -50px;
+}
+
+.one, .two, .three, .four {
+    margin-top: -15px;
+}
+
+.supervisor, .team-builder, .karma, .calculator {
+    padding-left: 9.375rem;
+    margin-bottom: -2.5rem;
+}
+
+@media (min-width: 50rem) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
