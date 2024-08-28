@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-* {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -35,11 +35,11 @@ p {
     padding: 1.25rem;
 }
 
+.wrapper {
+    margin-top: 5rem;
+}
+
 .box-one {
-    padding: 4.375rem;
-    background: hsl(0, 0%, 98%);
-    margin-top: 80px;
-    border-radius: 10px;
     border-top: 5px solid hsl(180, 62%, 55%);
 }
 
@@ -55,11 +55,11 @@ p {
     border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-.box-two, .box-three, .box-four {
+.box-one, .box-two, .box-three, .box-four {
     padding: 4.375rem;
     background: hsl(0, 0%, 98%);
-    margin-top: 25px;
-    border-radius: 10px;
+    margin-top: 1.5625rem;
+    border-radius: 0.625rem;
 }
 
 .text-one, .text-two, .text-three, .text-four {
