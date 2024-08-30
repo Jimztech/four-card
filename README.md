@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://grid-card-sigma.vercel.app/)
+- Live Site URL: [Live-site](https://grid-card-sigma.vercel.app/)
 
 ## My process
 
