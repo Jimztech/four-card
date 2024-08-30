@@ -83,12 +83,12 @@ img {
     .box{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         gap: 1rem;
     }
 
     .box-one, .box-two, .box-three, .box-four{
-        display: flex;
-        flex-direction: column;
+        display: grid;
         max-height: 250px;
         max-width: 375px;
         
