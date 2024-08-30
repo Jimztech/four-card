@@ -59,4 +59,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-I really give credit to @grace-snow and @alexkmarshall they helped me making this project come through.
+I really give credit to @grace-snow and @alexkmarshall they really helped me in making this project come through.
