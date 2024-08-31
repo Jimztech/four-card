@@ -13,7 +13,7 @@ img, picture, video, canvas, svg {
 body {
     padding: 0px;
     margin: 0 auto;  
-    background: hsl(228, 33%, 94%);
+    background: hsl(0, 0%, 98%);
     font-family: "Poppins", sans-serif;
     font-size: 0.9375rem;
 }
@@ -65,7 +65,7 @@ p {
     flex-direction: column;
     margin-bottom: 1rem;
     padding: 1rem;
-    background: hsl(0, 0%, 98%);
+    background: hsl(0, 0%, 100%);
     border-radius: 0.625rem;
 }
 
@@ -108,6 +108,7 @@ img {
     .light-heading, .heading, .paragraph {
         text-align: center;
     }
+
 }
 
 
