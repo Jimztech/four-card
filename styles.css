@@ -82,9 +82,8 @@ img {
 @media (min-width: 50rem) {
     .box{
         display: grid;
-        grid-template-columns: repeat(3, auto);
         gap: 1rem;
-        grid-template-columns: repeat( minmax(250px, auto));
+        grid-template-columns: repeat(3, minmax(250px, auto));
         justify-content: center;
         align-items: center;
     }
@@ -107,6 +106,10 @@ img {
 
     .light-heading, .heading, .paragraph {
         text-align: center;
+    }
+
+    img {
+        margin-left: 13.75rem;
     }
 
 }
